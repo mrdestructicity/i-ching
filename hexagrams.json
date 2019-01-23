@@ -1,0 +1,1220 @@
+const BESTIARY = [
+  {
+    "number" : 1,
+    "pattern" : 777777,
+    "symbol" : "䷀",
+    "name" : {
+      "zh" : "乾",
+      "en" : "The Creative"
+    },
+    "judgment" : "<p>The Creative works sublime success,<br />Furthering through perseverance.</p>",
+    "image" : "<p>The movement of heaven is full of power.<br />Thus the superior man makes himself strong and untiring.</p>",
+    "transforming_lines" : [
+      "<p>Hidden dragon. Do not act.</p>",
+      "<p>Dragon appearing in the field.<br />It furthers one to see the great man.</p>",
+      "<p>All day long the superior man is creatively active.<br />At nightfall his mind is still beset with cares.<br />Danger. No blame.</p>",
+      "<p>Wavering flight over the depths.<br />No blame.</p>",
+      "<p>Flying dragon in the heavens.<br />It furthers one to see the great man.</p>",
+      "<p>Arrogant dragon will have cause to repent.</p>",
+      "<p>There appears a flight of dragons without heads.<br />Good fortune.</p>"
+    ]
+  },
+  {
+    "number" : 2,
+    "pattern" : 888888,
+    "symbol" : "䷁",
+    "name" : {
+      "zh" : "坤",
+      "en" : "The Receptive"
+    },
+    "judgment" : "<p>The Receptive brings about sublime success,<br />Furthering through the perseverance of a mare.<br />If the superior man undertakes something and tries to lead,<br />He goes astray;<br />But if he follows, he finds guidance.<br />It is favorable to find friends in the west and south,<br />To forego friends in the east and north.<br />Quiet perseverance brings good fortune.</p>",
+    "image" : "<p>The earth's condition is receptive devotion.<br />Thus the superior man who has breadth of character<br />Carries the outer world.</p>",
+    "transforming_lines" : [
+      "<p>When there is hoarfrost underfoot,<br />Solid ice is not far off.</p>",
+      "<p>Straight, square, great.<br />Without purpose,<br />Yet nothing remains unfurthered.</p>",
+      "<p>Hidden lines.<br />One is able to remain persevering.<br />If by chance you are in the service of a king,<br />Seek not works, but bring to completion.</p>",
+      "<p>A tied-up sack. No blame, no praise.</p>",
+      "<p>A yellow lower garment brings supreme good fortune.</p>",
+      "<p>Dragons fight in the meadow.<br />Their blood is black and yellow.</p>",
+      "<p>Lasting perseverance furthers.</p>"
+    ]
+  },
+  {
+    "number" : 3,
+    "pattern" : 788878,
+    "symbol" : "䷂",
+    "name" : {
+      "zh" : "屯",
+      "en" : "Difficulty at the Beginning"
+    },
+    "judgment" : "<p>Difficulty at the Beginning works supreme success,<br />Furthering through perseverance.<br />Nothing should be undertaken.<br />It furthers one to appoint helpers.</p>",
+    "image" : "<p>Clouds and thunder:<br />The image of Difficulty at the Beginning.<br />Thus the superior man<br />Brings order out of confusion.</p>",
+    "transforming_lines" : [
+      "<p>Hesitation and hindrance.<br />It furthers one to remain persevering.<br />It furthers one to appoint helpers.</p>",
+      "<p>Difficulties pile up.<br />Horse and wagon part.<br />He is not a robber;<br />He wants to woo when the time comes.<br />The maiden is chaste,<br />She does not pledge herself.<br />Ten years - then she pledges herself.</p>",
+      "<p>Whoever hunts deer without the forester<br />Only loses his way in the forest.<br />The superior man understands the signs of the time<br />And prefers to desist.<br />To go on brings humiliation.</p>",
+      "<p>Horse and wagon part.<br />Strive for union.<br />To go brings good fortune.<br />Everything acts to further.</p>",
+      "<p>Difficulties in blessing.<br />A little perseverance brings good fortune.<br />Great perseverance brings misfortune.</p>",
+      "<p>Horse and wagon part.<br />Bloody tears flow.</p>"
+    ]
+  },
+  {
+    "number" : 4,
+    "pattern" : 878887,
+    "symbol" : "䷃",
+    "name" : {
+      "zh" : "蒙",
+      "en" : "Youthful Folly"
+    },
+    "judgment" : "<p>Youthful Folly has success.<br />It is not I who seek the young fool;<br />The young fool seeks me.<br />At the first oracle I inform him.<br />If he asks two or three times, it is importunity.<br />If he importunes, I give him no information.<br />Perseverance furthers.</p>",
+    "image" : "<p>A spring wells up at the foot of the mountain:<br />The image of Youth.<br />Thus the superior man fosters his character<br />By thoroughness in all that he does.</p>",
+    "transforming_lines" : [
+      "<p>To make a fool develop<br />It furthers one to apply discipline.<br />The fetters should be removed.<br />To go on in this way brings humiliation.</p>",
+      "<p>To bear with fools in kindliness brings good fortune.<br />To know how to take women<br />Brings supreme good fortune.<br />The son is capable of taking charge of the household.</p>",
+      "<p>Take not a maiden who, when she sees a man of bronze,<br />Loses possession of herself.<br />Nothing furthers.</p>",
+      "<p>Entangled folly brings humiliation.</p>",
+      "<p>Childlike folly brings good fortune.</p>",
+      "<p>In punishing folly<br />It does not further one<br />To commit transgressions.<br />The only thing that furthers<br />Is to prevent transgressions.</p>"
+    ]
+  },
+  {
+    "number" : 5,
+    "pattern" : 777878,
+    "symbol" : "䷄",
+    "name" : {
+      "zh" : "需",
+      "en" : "Waiting [Nourishment]"
+    },
+    "judgment" : "<p>Waiting. If you are sincere,<br />You have light and success.<br />Perseverance brings good fortune.<br />It furthers one to cross the great water.</p>",
+    "image" : "<p>Clouds rise up to heaven:<br />The image of Waiting.<br />Thus the superior man eats and drinks,<br />Is joyous and of good cheer.</p>",
+    "transforming_lines" : [
+      "<p>Waiting in the meadow.<br />It furthers one to abide in what endures.<br />No blame.</p>",
+      "<p>Waiting on the sand.<br />There is some gossip.<br />The end brings good fortune.</p>",
+      "<p>Waiting in the mud<br />Brings about the arrival of the enemy.</p>",
+      "<p>Waiting in blood.<br />Get out of the pit.</p>",
+      "<p>Waiting at meat and drink.<br />Perseverance brings good fortune.</p>",
+      "<p>One falls into the pit.<br />Three uninvited guests arrive.<br />Honor them, and in the end there will be good fortune.</p>"
+    ]
+  },
+  {
+    "number" : 6,
+    "pattern" : 878777,
+    "symbol" : "䷅",
+    "name" : {
+      "zh" : "訟",
+      "en" : "Conflict"
+    },
+    "judgment" : "<p>Conflict. You are sincere<br />And are being obstructed.<br />A cautious halt halfway brings good fortune.<br />Going through to the end brings misfortune.<br />It furthers one to see the great man.<br />It does not further one to cross the great water.</p>",
+    "image" : "<p>Heaven and water go their opposite ways:<br />The image of Conflict.<br />Thus in all his transactions the superior man<br />Carefully considers the beginning.</p>",
+    "transforming_lines" : [
+      "<p>If one does not perpetuate the affair,<br />There is a little gossip.<br />In the end, good fortune comes.</p>",
+      "<p>One cannot engage in conflict;<br />One returns home, gives way.<br />The people of his town,<br />Three hundred households,<br />Remain free of guilt.</p>",
+      "<p>To nourish oneself on ancient virtue induces perseverance.<br />Danger. In the end, good fortune comes.<br />If by chance you are in the service of a king,<br />Seek not works.</p>",
+      "<p>One cannot engage in conflict.<br />One turns back and submits to fate,<br />Changes one's attitude,<br />And finds peace in perseverance.<br />Good fortune.</p>",
+      "<p>To contend before him<br />Brings good fortune.</p>",
+      "<p>Even if by chance a leather belt is bestowed on one,<br />By the end of a morning<br />It will have been snatched away three times.</p>"
+    ]
+  },
+  {
+    "number" : 7,
+    "pattern" : 878888,
+    "symbol" : "䷆",
+    "name" : {
+      "zh" : "師",
+      "en" : "The Army"
+    },
+    "judgment" : "<p>The Army. The army needs perseverance<br />And a strong man.<br />Good fortune without blame.</p>",
+    "image" : "<p>In the middle of the earth is water:<br />The image of the Army.<br />Thus the superior man increases his masses<br />By generosity toward the people.</p>",
+    "transforming_lines" : [
+      "<p>An army must set forth in proper order.<br />If the order is not good, misfortune threatens.</p>",
+      "<p>In the midst of the army.<br />Good fortune. No blame.<br />The king bestows a triple decoration.</p>",
+      "<p>Perchance the army carries corpses in the wagon.<br />Misfortune.</p>",
+      "<p>The army retreats. No blame.</p>",
+      "<p>There is game in the field.<br />It furthers one to catch it.<br />Without blame.<br />Let the eldest lead the army.<br />The younger transports corpses;<br />Then perseverance brings misfortune.</p>",
+      "<p>The great prince issues commands,<br />Founds states, vests families with fiefs.<br />Inferior people should not be employed.</p>"
+    ]
+  },
+  {
+    "number" : 8,
+    "pattern" : 888878,
+    "symbol" : "䷇",
+    "name" : {
+      "zh" : "比",
+      "en" : "Holding Together [Union]"
+    },
+    "judgment" : "<p>Holding Together brings good fortune.<br />Inquire of the oracle once again<br />Whether you possess sublimity, constancy, and perseverance;<br />Then there is no blame.<br />Those who are uncertain gradually join.<br />Whoever comes too late<br />Meets with misfortune.</p>",
+    "image" : "<p>On the earth is water:<br />The image of Holding Together.<br />Thus the kings of antiquity<br />Bestowed the different states as fiefs<br />And cultivated friendly relations<br />With the feudal lords.</p>",
+    "transforming_lines" : [
+      "<p>Hold to him in truth and loyalty;<br />This is without blame.<br />Truth, like a full earthen bowl:<br />Thus in the end<br />Good fortune comes from without.</p>",
+      "<p>Hold to him inwardly.<br />Perseverance brings good fortune.</p>",
+      "<p>You hold together with the wrong people.</p>",
+      "<p>Hold to him outwardly also.<br />Perseverance brings good fortune.</p>",
+      "<p>Manifestation of holding together.<br />In the hunt the king uses beaters on three sides only<br />And foregoes game that runs off in front.<br />The citizens need no warning.<br />Good fortune.</p>",
+      "<p>He finds no head for holding together.<br />Misfortune.</p>"
+    ]
+  },
+  {
+    "number" : 9,
+    "pattern" : 777877,
+    "symbol" : "䷈",
+    "name" : {
+      "zh" : "小畜",
+      "en" : "The Taming Power of the Small"
+    },
+    "judgment" : "<p>The Taming Power of the Small<br />Has success.<br />Dense clouds, no rain from our western region.</p>",
+    "image" : "<p>The wind drives across heaven:<br />The image of The Taming Power of the Small.<br />Thus the superior man<br />Refines the outward aspect of his nature.</p>",
+    "transforming_lines" : [
+      "<p>Return to the way.<br />How could there be blame in this?<br />Good fortune.</p>",
+      "<p>He allows himself to be drawn into returning.<br />Good fortune.</p>",
+      "<p>The spokes burst out of the wagon wheels.<br />Man and wife roll their eyes.</p>",
+      "<p>If you are sincere, blood vanishes and fear gives way.<br />No blame.</p>",
+      "<p>If you are sincere and loyally attached,<br />You are rich in your neighbor.</p>",
+      "<p>The rain comes, there is rest.<br />This is due to the lasting effect of character.<br />Perseverance brings the woman into danger.<br />The moon is nearly full.<br />If the superior man persists,<br />Misfortune comes.</p>"
+    ]
+  },
+  {
+    "number" : 10,
+    "pattern" : 778777,
+    "symbol" : "䷉",
+    "name" : {
+      "zh" : "履",
+      "en" : "Treading [Conduct]"
+    },
+    "judgment" : "<p>Treading. Treading upon the tail of the tiger.<br />It does not bite the man. Success.</p>",
+    "image" : "<p>Heaven above, the lake below:<br />The image of Treading.<br />Thus the superior man discriminates between high and low,<br />And thereby fortifies the thinking of the people.</p>",
+    "transforming_lines" : [
+      "<p>Simple conduct. Progress without blame.</p>",
+      "<p>Treading a smooth, level course.<br />The perseverance of a dark man<br />Brings good fortune.</p>",
+      "<p>A one-eyed man is able to see,<br />A lame man is able to tread.<br />He treads on the tail of the tiger.<br />The tiger bites the man.<br />Misfortune.<br />Thus does a warrior act on behalf of his great prince.</p>",
+      "<p>He treads on the tail of the tiger.<br />Caution and circumspection<br />Le ad ultimately to good fortune.</p>",
+      "<p>Resolute conduct.<br />Perseverance with awareness of danger.</p>",
+      "<p>Look to your conduct and weigh the favorable signs.<br />When everything is fulfilled, supreme good fortune comes.</p>"
+    ]
+  },
+  {
+    "number" : 11,
+    "pattern" : 777888,
+    "symbol" : "䷊",
+    "name" : {
+      "zh" : "泰",
+      "en" : "Peace"
+    },
+    "judgment" : "<p>Peace. The small departs,<br />The great approaches.<br />Good fortune. Success.</p>",
+    "image" : "<p>Heaven and earth unite: the image of Peace.<br />Thus the ruler<br />Divides and completes the course of heaven and earth;<br />He furthers and regulates the gifts of heaven and earth,<br />And so aids the people.</p>",
+    "transforming_lines" : [
+      "<p>When ribbon grass is pulled up, the sod comes with it.<br />Each according to his kind.<br />Undertakings bring good fortune.</p>",
+      "<p>Bearing with the uncultured in gentleness,<br />Fording the river with resolution,<br />Not neglecting what is distant,<br />Not regarding one's companions:<br />Thus one may manage to walk in the middle.</p>",
+      "<p>No plain not followed by a slope.<br />No going not followed by a return.<br />He who remains persevering in danger<br />Is without blame.<br />Do not complain about this truth;<br />enjoy the good fortune you still possess.</p>",
+      "<p>He flutters down, not boasting of his wealth,<br />Together with his neighbor,<br />Guileless and sincere.</p>",
+      "<p>The sovereign I<br />Gives his daughter in marriage.<br />This brings blessing<br />And supreme good fortune.</p>",
+      "<p>The wall falls back into the moat.<br />Use no army now.<br />Make your commands known within your own town.<br />Perseverance brings humiliation.</p>"
+    ]
+  },
+  {
+    "number" : 12,
+    "pattern" : 888777,
+    "symbol" : "䷋",
+    "name" : {
+      "zh" : "否",
+      "en" : "Standstill [Stagnation]"
+    },
+    "judgment" : "<p>Standstill. Evil people do not further<br />The perseverance of the superior man.<br />The great departs; the small approaches.</p>",
+    "image" : "<p>Heaven and earth do not unite:<br />The image of Standstill.<br />Thus the superior man falls back upon his inner worth<br />In order to escape the difficulties.<br />He does not permit himself to be honored with revenue.</p>",
+    "transforming_lines" : [
+      "<p>When ribbon grass is pulled up, the sod comes with it.<br />Each according to his kind.<br />Perseverance brings good fortune and success.</p>",
+      "<p>They bear and endure;<br />This means good fortune for inferior people.<br />The standstill serves to help the great man to attain success.</p>",
+      "<p>They bear shame.</p>",
+      "<p>He who acts at the command of the highest<br />Remains without blame.<br />Those of like mind partake of the blessing.</p>",
+      "<p>Standstill is giving way.<br />Good fortune for the great man.<br />\"What if it should fail, what if it should fail?\"<br />In this way he ties it to a cluster of mulberry shoots.</p>",
+      "<p>The standstill comes to an end.<br />First standstill, then good fortune.</p>"
+    ]
+  },
+  {
+    "number" : 13,
+    "pattern" : 787777,
+    "symbol" : "䷌",
+    "name" : {
+      "zh" : "同人",
+      "en" : "Fellowship with Men"
+    },
+    "judgment" : "<p>Fellowship with Men in the open.<br />Success.<br />It furthers one to cross the great water.<br />The perseverance of the superior man furthers.</p>",
+    "image" : "<p>Heaven together with fire:<br />The image of Fellowship with Men.<br />Thus the superior man organizes the clans<br />And makes distinctions between things.</p>",
+    "transforming_lines" : [
+      "<p>Fellowship with men at the gate.<br />No blame.</p>",
+      "<p>Fellowship with men in the clan.<br />Humiliation.</p>",
+      "<p>He hides weapons in the thicket;<br />He climbs the high hill in front of it.<br />For three years he does not rise up.</p>",
+      "<p>He climbs up on his wall; he cannot attack.<br />Good fortune.</p>",
+      "<p>Men bound in fellowship first weep and lament,<br />But afterward they laugh.<br />After great struggles they succeed in meeting.</p>",
+      "<p>Fellowship with men in the meadow.<br />No remorse.</p>"
+    ]
+  },
+  {
+    "number" : 14,
+    "pattern" : 777787,
+    "symbol" : "䷍",
+    "name" : {
+      "zh" : "大有",
+      "en" : "Possession in Great Measure"
+    },
+    "judgment" : "<p>Possession in Great Measure.<br />Supreme success.</p>",
+    "image" : "<p>Fire in heaven above:<br />The image of Possession in Great Measure.<br />Thus the superior man curbs evil and furthers good,<br />And thereby obeys the benevolent will of heaven.</p>",
+    "transforming_lines" : [
+      "<p>No relationship with what is harmful;<br />There is no blame in this.<br />If one remains conscious of difficulty,<br />One remains without blame.</p>",
+      "<p>A big wagon for loading.<br />One may undertake something.<br />No blame.</p>",
+      "<p>A prince offers it to the Son of Heaven.<br />A petty man cannot do this.</p>",
+      "<p>He makes a difference<br />between himself and his neighbor.<br />No blame.</p>",
+      "<p>He whose truth is accessible, yet dignified,<br />Has good fortune.</p>",
+      "<p>He is blessed by heaven.<br />Good fortune.<br />Nothing that does not further.</p>"
+    ]
+  },
+  {
+    "number" : 15,
+    "pattern" : 887888,
+    "symbol" : "䷎",
+    "name" : {
+      "zh" : "謙",
+      "en" : "Modesty"
+    },
+    "judgment" : "<p>Modesty creates success.<br />The superior man carries things through.</p>",
+    "image" : "<p>Within the earth, a mountain:<br />The image of Modesty.<br />Thus the superior man reduces that which is too much,<br />And augments that which is too little.<br />He weighs things and makes them equal.</p>",
+    "transforming_lines" : [
+      "<p>A superior man modest about his modesty<br />May cross the great water.<br />Good fortune.</p>",
+      "<p>Modesty that comes to expression.<br />Perseverance brings good fortune.</p>",
+      "<p>A superior man of modesty and merit<br />Carries things to conclusion.<br />Good fortune.</p>",
+      "<p>Nothing that would not further modesty<br />In movement.</p>",
+      "<p>No boasting of wealth before one's neighbor.<br />It is favorable to attack with force.<br />Nothing that would not further.</p>",
+      "<p>Modesty that comes to expression.<br />It is favorable to set armies marching<br />To chastise one's own city and one's country.</p>"
+    ]
+  },
+  {
+    "number" : 16,
+    "pattern" : 888788,
+    "symbol" : "䷏",
+    "name" : {
+      "zh" : "豫",
+      "en" : "Enthusiasm"
+    },
+    "judgment" : "<p>Enthusiasm. It furthers one to install helpers<br />And to set armies marching.</p>",
+    "image" : "<p>Thunder comes resounding out of the earth:<br />The image of Enthusiasm.<br />Thus the ancient kings made music<br />In order to honor merit,<br />And offered it with splendor<br />to the Supreme Deity,<br />Inviting their ancestors to be present.</p>",
+    "transforming_lines" : [
+      "<p>Enthusiasm that expresses itself<br />Brings misfortune.</p>",
+      "<p>Firm as a rock. Not a whole day.<br />Perseverance brings good fortune.</p>",
+      "<p>Enthusiasm that looks upward creates remorse.<br />Hesitation brings remorse.</p>",
+      "<p>The source of enthusiasm.<br />He achieves great things.<br />Doubt not.<br />You gather friends around you<br />As a hair clasp gathers the hair.</p>",
+      "<p>Persistently ill, and still does not die.</p>",
+      "<p>Deluded enthusiasm.<br />But if after completion one changes,<br />There is no blame.</p>"
+    ]
+  },
+  {
+    "number" : 17,
+    "pattern" : 788778,
+    "symbol" : "䷐",
+    "name" : {
+      "zh" : "隨",
+      "en" : "Following"
+    },
+    "judgment" : "<p>Following has supreme success.<br />Perseverance furthers. No blame.</p>",
+    "image" : "<p>Thunder in the middle of the lake:<br />The image of Following.<br />Thus the superior man at nightfall<br />Goes indoors for rest and recuperation.</p>",
+    "transforming_lines" : [
+      "<p>The standard is changing.<br />Perseverance brings good fortune.<br />To go out of the door in company<br />Produces deeds.</p>",
+      "<p>If one clings to the little boy,<br />One loses the strong man.</p>",
+      "<p>If one clings to the strong man,<br />One loses the little boy.<br />Through following one finds what one seeks.<br />It furthers one to remain persevering.</p>",
+      "<p>Following creates success.<br />Perseverance brings misfortune.<br />To go one's way with sincerity brings clarity.<br />How could there be blame in this?</p>",
+      "<p>Sincere in the good. Good fortune.</p>",
+      "<p>He meets with firm allegiance<br />And is still further bound.<br />The king introduces him<br />To the Western Mountain.</p>"
+    ]
+  },
+  {
+    "number" : 18,
+    "pattern" : 877887,
+    "symbol" : "䷑",
+    "name" : {
+      "zh" : "蠱",
+      "en" : "Work on What Has Been Spoiled [Decay]"
+    },
+    "judgment" : "<p>Work on What Has Been Spoiled<br />Has supreme success.<br />It furthers one to cross the great water.<br />Before the starting point, three days.<br />After the starting point, three days.</p>",
+    "image" : "<p>The wind blows low on the mountain:<br />The image of Decay.<br />Thus the superior man stirs up the people<br />And strengthens their spirit.</p>",
+    "transforming_lines" : [
+      "<p>Setting right what has been spoiled by the father.<br />If there is a son,<br />No blame rests upon the departed father.<br />Danger. In the end good fortune.</p>",
+      "<p>Setting right what has been spoiled by the mother.<br />One must not be too persevering.</p>",
+      "<p>Setting right what has been spoiled by the father.<br />There will be little remorse. No great blame.</p>",
+      "<p>Tolerating what has been spoiled by the father.<br />In continuing one sees humiliation.</p>",
+      "<p>Setting right what has been spoiled by the father.<br />One meets with praise.</p>",
+      "<p>He does not serve kings and princes,<br />Sets himself higher goals.</p>"
+    ]
+  },
+  {
+    "number" : 19,
+    "pattern" : 778888,
+    "symbol" : "䷒",
+    "name" : {
+      "zh" : "臨",
+      "en" : "Approach"
+    },
+    "judgment" : "<p>Approach has supreme success.<br />Perseverance furthers.<br />When the eighth month comes,<br />There will be misfortune.</p>",
+    "image" : "<p>The earth above the lake:<br />The image of Approach.<br />Thus the superior man is inexhaustible<br />In his will to teach,<br />And without limits<br />In his tolerance and protection of the people.</p>",
+    "transforming_lines" : [
+      "<p>Joint approach.<br />Perseverance brings good fortune.</p>",
+      "<p>Joint approach.<br />Good fortune.<br />Everything furthers.</p>",
+      "<p>Comfortable approach.<br />Nothing that would further.<br />If one is induced to grieve over it,<br />One becomes free of blame.</p>",
+      "<p>Complete approach.<br />No blame.</p>",
+      "<p>Wise approach.<br />This is right for a great prince.<br />Good fortune.</p>",
+      "<p>Greathearted approach.<br />Good fortune. No blame.</p>"
+    ]
+  },
+  {
+    "number" : 20,
+    "pattern" : 888877,
+    "symbol" : "䷓",
+    "name" : {
+      "zh" : "觀",
+      "en" : "Contemplation [View]"
+    },
+    "judgment" : "<p>Contemplation. The ablution has been made,<br />But not yet the offering.<br />Full of trust they look up to him.</p>",
+    "image" : "<p>The wind blows over the earth:<br />The image of Contemplation.<br />Thus the kings of old visited the regions of the world,<br />Contemplated the people,<br />And gave them instruction.</p>",
+    "transforming_lines" : [
+      "<p>Boylike contemplation.<br />For an inferior man, no blame.<br />For a superior man, humiliation.</p>",
+      "<p>Contemplation through the crack of the door.<br />Furthering for the perseverance of a woman.</p>",
+      "<p>Contemplation of my life<br />Decides the choice<br />Between advance and retreat.</p>",
+      "<p>Contemplation of the light of the kingdom.<br />It furthers one to exert influence as the guest of a king.</p>",
+      "<p>Contemplation of my life.<br />The superior man is without blame.</p>",
+      "<p>Contemplation of his life.<br />The superior man is without blame.</p>"
+    ]
+  },
+  {
+    "number" : 21,
+    "pattern" : 788787,
+    "symbol" : "䷔",
+    "name" : {
+      "zh" : "噬嗑",
+      "en" : "Biting Through"
+    },
+    "judgment" : "<p>Biting Through has success.<br />It is favorable to let justice be administered.</p>",
+    "image" : "<p>Thunder and lightning:<br />The image of Biting Through.<br />Thus the kings of former times made firm the laws<br />Through clearly defined penalties.</p>",
+    "transforming_lines" : [
+      "<p>His feet are fastened in the stocks,<br />So that his toes disappear.<br />No blame.</p>",
+      "<p>Bites through tender meat,<br />So that his nose disappears.<br />No blame.</p>",
+      "<p>Bites on old dried meat<br />And strikes on something poisonous.<br />Slight humiliation. No blame.</p>",
+      "<p>Bites on dried gristly meat.<br />Receives metal arrows.<br />It furthers one to be mindful of difficulties<br />And to be persevering.<br />Good fortune.</p>",
+      "<p>Bites on dried lean meat.<br />Receives yellow gold.<br />Perseveringly aware of danger.<br />No blame.</p>",
+      "<p>His neck is fastened in the wooden cangue,<br />So that his ears disappear.<br />Misfortune.</p>"
+    ]
+  },
+  {
+    "number" : 22,
+    "pattern" : 787887,
+    "symbol" : "䷕",
+    "name" : {
+      "zh" : "賁",
+      "en" : "Grace"
+    },
+    "judgment" : "<p>Grace has success.<br />In small matters<br />It is favorable to undertake something.</p>",
+    "image" : "<p>Fire at the foot of the mountain:<br />The image of Grace.<br />Thus does the superior man proceed<br />When clearing up current affairs.<br />But he dare not decide controversial issues in this way.</p>",
+    "transforming_lines" : [
+      "<p>He lends grace to his toes, leaves the carriage, and walks.</p>",
+      "<p>Lends grace to the beard on his chin.</p>",
+      "<p>Graceful and moist.<br />Constant perseverance brings good fortune.</p>",
+      "<p>Grace or simplicity?<br />A white horse comes as if on wings.<br />He is not a robber,<br />He will woo at the right time.</p>",
+      "<p>Grace in hills and gardens.<br />The roll of silk is meager and small.<br />Humiliation, but in the end good fortune.</p>",
+      "<p>Simple grace. No blame.</p>"
+    ]
+  },
+  {
+    "number" : 23,
+    "pattern" : 888887,
+    "symbol" : "䷖",
+    "name" : {
+      "zh" : "剝",
+      "en" : "Splitting Apart"
+    },
+    "judgment" : "<p>Splitting Apart. It does not further one<br />To go anywhere.</p>",
+    "image" : "<p>The mountain rests on the earth:<br />The image of Splitting Apart.<br />Thus those above can ensure their position<br />Only by giving generously to those below.</p>",
+    "transforming_lines" : [
+      "<p>The leg of the bed is split.<br />Those who persevere are destroyed.<br />Misfortune.</p>",
+      "<p>The bed is split at the edge.<br />Those who persevere are destroyed.<br />Misfortune.</p>",
+      "<p>He splits with them. No blame.</p>",
+      "<p>The bed is split up to the skin.<br />Misfortune.</p>",
+      "<p>A shoal of fishes. Favor comes through the court ladies.<br />Everything acts to further.</p>",
+      "<p>There is a large fruit still uneaten.<br />The superior man receives a carriage.<br />The house of the inferior man is split apart.</p>"
+    ]
+  },
+  {
+    "number" : 24,
+    "pattern" : 788888,
+    "symbol" : "䷗",
+    "name" : {
+      "zh" : "復",
+      "en" : "Return [The Turning Point]"
+    },
+    "judgment" : "<p>Return. Success.<br />Going out and coming in without error.<br />Friends come without blame.<br />To and fro goes the way.<br />On the seventh day comes return.<br />It furthers one to have somewhere to go.</p>",
+    "image" : "<p>Thunder within the earth:<br />The image of the Turning Point.<br />Thus the kings of antiquity closed the passes<br />At the time of solstice.<br />Merchants and strangers did not go about,<br />And the ruler<br />Did not travel through the provinces.</p>",
+    "transforming_lines" : [
+      "<p>Return from a short distance.<br />No need for remorse.<br />Great good fortune.</p>",
+      "<p>Quiet return. Good fortune.</p>",
+      "<p>Repeated return. Danger. No blame.</p>",
+      "<p>Walking in the midst of others,<br />One returns alone.</p>",
+      "<p>Noblehearted return. No remorse.</p>",
+      "<p>Missing the return. Misfortune.<br />Misfortune from within and without.<br />If armies are set marching in this way,<br />One will in the end suffer a great defeat,<br />Disastrous for the ruler of the country.<br />For ten years<br />It will not be possible to attack again.</p>"
+    ]
+  },
+  {
+    "number" : 25,
+    "pattern" : 788777,
+    "symbol" : "䷘",
+    "name" : {
+      "zh" : "無妄",
+      "en" : "Innocence [The Unexpected]"
+    },
+    "judgment" : "<p>Innocence. Supreme success.<br />Perseverance furthers.<br />If someone is not as he should be,<br />He has misfortune,<br />And it does not further him<br />To undertake anything.</p>",
+    "image" : "<p>Under heaven thunder rolls:<br />All things attain the natural state of innocence.<br />Thus the kings of old,<br />Rich in virtue, and in harmony with the time,<br />Fostered and nourished all beings.</p>",
+    "transforming_lines" : [
+      "<p>Innocent behavior brings good fortune.</p>",
+      "<p>If one does not count on the harvest while plowing,<br />Nor on the use of the ground while clearing it,<br />It furthers one to undertake something.</p>",
+      "<p>Undeserved misfortune.<br />The cow that was tethered by someone<br />Is the wanderer's gain, the citizen's loss.</p>",
+      "<p>He who can be persevering<br />Remains without blame.</p>",
+      "<p>Use no medicine in an illness<br />Incurred through no fault of your own.<br />It will pass of itself.</p>",
+      "<p>Innocent action brings misfortune.<br />Nothing furthers.</p>"
+    ]
+  },
+  {
+    "number" : 26,
+    "pattern" : 777887,
+    "symbol" : "䷙",
+    "name" : {
+      "zh" : "大畜",
+      "en" : "The Taming Power of the Great"
+    },
+    "judgment" : "<p>The Taming Power of the Great.<br />Perseverance furthers.<br />Not eating at home brings good fortune.<br />It furthers one to cross the great water.</p>",
+    "image" : "<p>Heaven within the mountain:<br />The image of the Taming Power of the Great.<br />Thus the superior man acquaints himself with many sayings of antiquity<br />And many deeds of the past,<br />In order to strengthen his character thereby.</p>",
+    "transforming_lines" : [
+      "<p>Danger is at hand. It furthers one to desist.</p>",
+      "<p>The axletrees are taken from the wagon.</p>",
+      "<p>A good horse that follows others.<br />Awareness of danger,<br />With perseverance, furthers.<br />Practice chariot driving and armed defense daily.<br />It furthers one to have somewhere to go.</p>",
+      "<p>The headboard of a young bull.<br />Great good fortune.</p>",
+      "<p>The tusk of a gelded boar.<br />Good fortune.</p>",
+      "<p>One attains the way of heaven. Success.</p>"
+    ]
+  },
+  {
+    "number" : 27,
+    "pattern" : 788887,
+    "symbol" : "䷚",
+    "name" : {
+      "zh" : "頤",
+      "en" : "The Corners of the Mouth"
+    },
+    "judgment" : "<p>The Corners of the Mouth.<br />Perseverance brings good fortune.<br />Pay heed to the providing of nourishment<br />And to what a man seeks<br />To fill his own mouth with.</p>",
+    "image" : "<p>At the foot of the mountain, thunder:<br />The image of Providing Nourishment.<br />Thus the superior man is careful of his words<br />And temperate in eating and drinking.</p>",
+    "transforming_lines" : [
+      "<p>You let your magic tortoise go,<br />And look at me with the corners of your mouth drooping.<br />Misfortune.</p>",
+      "<p>Turning to the summit for nourishment,<br />Deviating from the path<br />To seek nourishment from the hill.<br />Continuing to do this brings misfortune.</p>",
+      "<p>Turning away from nourishment.<br />Perseverance brings misfortune.<br />Do not act thus for ten years.<br />Nothing serves to further.</p>",
+      "<p>Turning to the summit<br />For provision of nourishment<br />Brings good fortune.<br />Spying about with sharp eyes<br />Like a tiger with insatiable craving.<br />No blame.</p>",
+      "<p>Turning away from the path.<br />To remain persevering brings good fortune.<br />One should not cross the great water.</p>",
+      "<p>The source of nourishment.<br />Awareness of danger brings good fortune.<br />It furthers one to cross the great water.</p>"
+    ]
+  },
+  {
+    "number" : 28,
+    "pattern" : 877778,
+    "symbol" : "䷛",
+    "name" : {
+      "zh" : "大過",
+      "en" : "Preponderance of the Great"
+    },
+    "judgment" : "<p>Preponderance of the Great.<br />The ridgepole sags to the breaking point.<br />It furthers one to have somewhere to go.<br />Success.</p>",
+    "image" : "<p>The lake rises above the trees:<br />The image of Preponderance of the Great.<br />Thus the superior man, when he stands alone,<br />Is unconcerned,<br />And if he has to renounce the world,<br />He is undaunted.</p>",
+    "transforming_lines" : [
+      "<p>To spread white rushes underneath.<br />No blame.</p>",
+      "<p>A dry poplar sprouts at the root.<br />An older man takes a young wife.<br />Everything furthers.</p>",
+      "<p>The ridgepole sags to the breaking point.<br />Misfortune.</p>",
+      "<p>The ridgepole is braced. Good fortune.<br />If there are ulterior motives, it is humiliating.</p>",
+      "<p>A withered poplar puts forth flowers.<br />An older woman takes a husband.<br />No blame. No praise.</p>",
+      "<p>One must go through the water.<br />It goes over one's head.<br />Misfortune. No blame.</p>"
+    ]
+  },
+  {
+    "number" : 29,
+    "pattern" : 878878,
+    "symbol" : "䷜",
+    "name" : {
+      "zh" : "坎",
+      "en" : "The Abysmal [Water]"
+    },
+    "judgment" : "<p>The Abysmal repeated.<br />If you are sincere, you have success in your heart,<br />And whatever you do succeeds.</p>",
+    "image" : "<p>Water flows on uninterruptedly and reaches its goal:<br />The image of the Abysmal repeated.<br />Thus the superior man walks in lasting virtue<br />And carries on the business of teaching.</p>",
+    "transforming_lines" : [
+      "<p>Repetition of the Abysmal.<br />In the abyss one falls into a pit.<br />Misfortune.</p>",
+      "<p>The abyss is dangerous.<br />One should strive to attain small things only.</p>",
+      "<p>Forward and backward, abyss on abyss.<br />In danger like this, pause at first and wait,<br />Otherwise you will fall into a pit in the abyss.<br />Do not act in this way.</p>",
+      "<p>A jug of wine, a bowl of rice with it;<br />Earthen vessels<br />Simply handed in through the window.<br />There is certainly no blame in this.</p>",
+      "<p>The abyss is not filled to overflowing,<br />It is filled only to the rim.<br />No blame.</p>",
+      "<p>Bound with cords and ropes,<br />Shut in between thorn-hedged prison walls:<br />For three years one does not find the way.<br />Misfortune.</p>"
+    ]
+  },
+  {
+    "number" : 30,
+    "pattern" : 787787,
+    "symbol" : "䷝",
+    "name" : {
+      "zh" : "離",
+      "en" : "The Clinging, Fire"
+    },
+    "judgment" : "<p>The Clinging. Perseverance furthers.<br />It brings success.<br />Care of the cow brings good fortune.</p>",
+    "image" : "<p>That which is bright rises twice:<br />The image of Fire.<br />Thus the great man, by perpetuating this brightness,<br />Illumines the four quarters of the world.</p>",
+    "transforming_lines" : [
+      "<p>The footprints run crisscross.<br />If one is seriously intent, no blame.</p>",
+      "<p>Yellow light. Supreme good fortune.</p>",
+      "<p>In the light of the setting sun,<br />Men either beat the pot and sing<br />Or loudly bewail the approach of old age.<br />Misfortune.</p>",
+      "<p>Its coming is sudden;<br />It flames up, dies down, is thrown away.</p>",
+      "<p>Tears in floods, sighing and lamenting.<br />Good fortune.</p>",
+      "<p>The king uses him to march forth and chastise.<br />Then it is best to kill the leaders<br />And take captive the followers. No blame.</p>"
+    ]
+  },
+  {
+    "number" : 31,
+    "pattern" : 887778,
+    "symbol" : "䷞",
+    "name" : {
+      "zh" : "咸",
+      "en" : "Influence [Wooing]"
+    },
+    "judgment" : "<p>Influence. Success.<br />Perseverance furthers.<br />To take a maiden to wife brings good fortune.</p>",
+    "image" : "<p>A lake on the mountain:<br />The image of Influence.<br />Thus the superior man encourages people to approach him<br />By his readiness to receive them.</p>",
+    "transforming_lines" : [
+      "<p>The influence shows itself in the big toe.</p>",
+      "<p>The influence shows itself in the calves of the legs.<br />Misfortune.<br />Tarrying brings good fortune.</p>",
+      "<p>The influence shows itself in the thighs.<br />Holds to that which follows it.<br />To continue is humiliating.</p>",
+      "<p>Perseverance brings good fortune.<br />Remorse disappears.<br />If a man is agitated in mind,<br />And his thoughts go hither and thither,<br />Only those friends<br />On whom he fixes his conscious thoughts<br />Will follow.</p>",
+      "<p>The influence shows itself in the back of the neck.<br />No remorse.</p>",
+      "<p>The influence shows itself in the jaws, cheeks, and tongue.</p>"
+    ]
+  },
+  {
+    "number" : 32,
+    "pattern" : 877788,
+    "symbol" : "䷟",
+    "name" : {
+      "zh" : "恆",
+      "en" : "Duration"
+    },
+    "judgment" : "<p>Duration. Success. No blame.<br />Perseverance furthers.<br />It furthers one to have somewhere to go.</p>",
+    "image" : "<p>Thunder and wind: the image of Duration.<br />Thus the superior man stands firm<br />And does not change his direction.</p>",
+    "transforming_lines" : [
+      "<p>Seeking duration too hastily brings misfortune persistently.<br />Nothing that would further.</p>",
+      "<p>Remorse disappears.</p>",
+      "<p>He who does not give duration to his character<br />Meets with disgrace.<br />Persistent humiliation.</p>",
+      "<p>No game in the field.</p>",
+      "<p>Giving duration to one's character through perseverance.<br />This is good fortune for a woman, misfortune for a man.</p>",
+      "<p>Restlessness as an enduring condition brings misfortune.</p>"
+    ]
+  },
+  {
+    "number" : 33,
+    "pattern" : 887777,
+    "symbol" : "䷠",
+    "name" : {
+      "zh" : "遯",
+      "en" : "Retreat"
+    },
+    "judgment" : "<p>Retreat. Success.<br />In what is small, perseverance furthers.</p>",
+    "image" : "<p>Mountain under heaven: the image of Retreat.<br />Thus the superior man keeps the inferior man at a distance,<br />Not angrily but with reserve.</p>",
+    "transforming_lines" : [
+      "<p>At the tail in retreat. This is dangerous.<br />One must not wish to undertake anything.</p>",
+      "<p>He holds him fast with yellow oxhide.<br />No one can tear him loose.</p>",
+      "<p>A halted retreat<br />Is nerve-wracking and dangerous.<br />To retain people as men- and maidservants<br />Brings good fortune.</p>",
+      "<p>Voluntary retreat brings good fortune to the superior man<br />And downfall to the inferior man.</p>",
+      "<p>Friendly retreat. Perseverance brings good fortune.</p>",
+      "<p>Cheerful retreat. Everything serves to further.</p>"
+    ]
+  },
+  {
+    "number" : 34,
+    "pattern" : 777788,
+    "symbol" : "䷡",
+    "name" : {
+      "zh" : "大壯",
+      "en" : "The Power of the Great"
+    },
+    "judgment" : "<p>The Power of the Great. Perseverance furthers.</p>",
+    "image" : "<p>Thunder in heaven above:<br />The image of the Power of the Great.<br />Thus the superior man does not tread upon paths<br />That do not accord with established order.</p>",
+    "transforming_lines" : [
+      "<p>Power in the toes.<br />Continuing brings misfortune.<br />This is certainly true.</p>",
+      "<p>Perseverance brings good fortune.</p>",
+      "<p>The inferior man works through power.<br />The superior man does not act thus.<br />To continue is dangerous.<br />A goat butts against a hedge<br />And gets its horns entangled.</p>",
+      "<p>Perseverance brings good fortune.<br />Remorse disappears.<br />The hedge opens; there is no entanglement.<br />Power depends upon the axle of a big cart.</p>",
+      "<p>Loses the goat with ease.<br />No remorse.</p>",
+      "<p>A goat butts against a hedge.<br />It cannot go backward, it cannot go forward.<br />Nothing serves to further.<br />If one notes the difficulty, this brings good fortune.</p>"
+    ]
+  },
+  {
+    "number" : 35,
+    "pattern" : 888787,
+    "symbol" : "䷢",
+    "name" : {
+      "zh" : "晉",
+      "en" : "Progress"
+    },
+    "judgment" : "<p>Progress. The powerful prince<br />Is honored with horses in large numbers.<br />In a single day he is granted audience three times.</p>",
+    "image" : "<p>The sun rises over the earth:<br />The image of Progress.<br />Thus the superior man himself<br />Brightens his bright virtue.</p>",
+    "transforming_lines" : [
+      "<p>Progressing, but turned back.<br />Perseverance brings good fortune.<br />If one meets with no confidence, one should remain calm.<br />No mistake.</p>",
+      "<p>Progressing, but in sorrow.<br />Perseverance brings good fortune.<br />Then one obtains great happiness from one's ancestress.</p>",
+      "<p>All are in accord. Remorse disappears.</p>",
+      "<p>Progress like a hamster.<br />Perseverance brings danger.</p>",
+      "<p>Remorse disappears.<br />Take not gain and loss to heart.<br />Undertakings bring good fortune.<br />Everything serves to further.</p>",
+      "<p>Making progress with the horns is permissible<br />Only for the purpose of punishing one's own city.<br />To be conscious of danger brings good fortune.<br />No blame.<br />Perseverance brings humiliation.</p>"
+    ]
+  },
+  {
+    "number" : 36,
+    "pattern" : 787888,
+    "symbol" : "䷣",
+    "name" : {
+      "zh" : "明夷",
+      "en" : "Darkening of the Light"
+    },
+    "judgment" : "<p>Darkening of the Light. In adversity<br />It furthers one to be persevering.</p>",
+    "image" : "<p>The light has sunk into the earth:<br />The image of Darkening of the Light.<br />Thus does the superior man live with the great mass:<br />He veils his light, yet still shines.</p>",
+    "transforming_lines" : [
+      "<p>Darkening of the light during flight.<br />He lowers his wings.<br />The superior man does not eat for three days<br />On his wanderings.<br />But he has somewhere to go.<br />The host has occasion to gossip about him.</p>",
+      "<p>Darkening of the light injures him in the left thigh.<br />He gives aid with the strength of a horse.<br />Good fortune.</p>",
+      "<p>Darkening of the light during the hunt in the south.<br />Their great leader is captured.<br />One must not expect perseverance too soon.</p>",
+      "<p>He penetrates the left side of the belly.<br />One gets at the very heart of the darkening of the light,<br />And leaves gate and courtyard.</p>",
+      "<p>Darkening of the light as with Prince Chi.<br />Perseverance furthers.</p>",
+      "<p>Not light but darkness.<br />First he climbed up to heaven,<br />Then he plunged into the depths of the earth.</p>"
+    ]
+  },
+  {
+    "number" : 37,
+    "pattern" : 787877,
+    "symbol" : "䷤",
+    "name" : {
+      "zh" : "家人",
+      "en" : "The Family [The Clan]"
+    },
+    "judgment" : "<p>The Family. The perseverance of the woman furthers.</p>",
+    "image" : "<p>Wind comes forth from fire:<br />The image of the Family.<br />Thus the superior man has substance in his words<br />And duration in his way of life.</p>",
+    "transforming_lines" : [
+      "<p>Firm seclusion within the family.<br />Remorse disappears.</p>",
+      "<p>She should not follow her whims.<br />She must attend within to the food.<br />Perseverance brings good fortune.</p>",
+      "<p>When tempers flare up in the family,<br />Too great severity brings remorse.<br />Good fortune nonetheless.<br />When woman and child dally and laugh,<br />It leads in the end to humiliation.</p>",
+      "<p>She is the treasure of the house.<br />Great good fortune.</p>",
+      "<p>As a king he approaches his family.<br />Fear not.<br />Good fortune.</p>",
+      "<p>His work commands respect.<br />In the end good fortune comes.</p>"
+    ]
+  },
+  {
+    "number" : 38,
+    "pattern" : 778787,
+    "symbol" : "䷥",
+    "name" : {
+      "zh" : "睽",
+      "en" : "Opposition"
+    },
+    "judgment" : "<p>Opposition. In small matters, good fortune.</p>",
+    "image" : "<p>Above, fire; below, the lake:<br />The image of Opposition.<br />Thus amid all fellowship<br />The superior man retains his individuality.</p>",
+    "transforming_lines" : [
+      "<p>Remorse disappears.<br />If you lose your horse, do not run after it;<br />It will come back of its own accord.<br />When you see evil people,<br />Guard yourself against mistakes.</p>",
+      "<p>One meets his lord in a narrow street.<br />No blame.</p>",
+      "<p>One sees the wagon dragged back,<br />The oxen halted,<br />A man's hair and nose cut off.<br />Not a good beginning, but a good end.</p>",
+      "<p>Isolated through opposition,<br />One meets a like-minded man<br />With whom one can associate in good faith.<br />Despite the danger, no blame.</p>",
+      "<p>Remorse disappears.<br />The companion bites his way through the wrappings.<br />If one goes to him,<br />How could it be a mistake?</p>",
+      "<p>Isolated through opposition,<br />One sees one's companion as a pig covered with dirt,<br />As a wagon full of devils.<br />First one draws a bow against him,<br />Then one lays the bow aside.<br />He is not a robber; he will woo at the right time.<br />As one goes, rain falls; then good fortune comes.</p>"
+    ]
+  },
+  {
+    "number" : 39,
+    "pattern" : 887878,
+    "symbol" : "䷦",
+    "name" : {
+      "zh" : "蹇",
+      "en" : "Obstruction"
+    },
+    "judgment" : "<p>Obstruction. The southwest furthers.<br />The northeast does not further.<br />It furthers one to see the great man.<br />Perseverance brings good fortune.</p>",
+    "image" : "<p>Water on the mountain:<br />The image of Obstruction.<br />Thus the superior man turns his attention to himself<br />And molds his character.</p>",
+    "transforming_lines" : [
+      "<p>Going leads to obstructions,Coming meets with praise.</p>",
+      "<p>The king's servant is beset by obstruction upon obstruction,<br />But it is not his own fault.</p>",
+      "<p>Going leads to obstructions;<br />Hence he comes back.</p>",
+      "<p>Going leads to obstructions,<br />Coming leads to union.</p>",
+      "<p>In the midst of the greatest obstructions,<br />Friends come.</p>",
+      "<p>Going leads to obstructions,<br />Coming leads to great good fortune.<br />It furthers one to see the great man.</p>"
+    ]
+  },
+  {
+    "number" : 40,
+    "pattern" : 878788,
+    "symbol" : "䷧",
+    "name" : {
+      "zh" : "解",
+      "en" : "Deliverance"
+    },
+    "judgment" : "<p>Deliverance. The southwest furthers.<br />If there is no longer anything where one has to go,<br />Return brings good fortune.<br />If there is still something where one has to go,<br />Hastening brings good fortune.</p>",
+    "image" : "<p>Thunder and rain set in:<br />The image of Deliverance.<br />Thus the superior man pardons mistakes<br />And forgives misdeeds.</p>",
+    "transforming_lines" : [
+      "<p>Without blame.</p>",
+      "<p>One kills three foxes in the field<br />And receives a yellow arrow.<br />Perseverance brings good fortune.</p>",
+      "<p>If a man carries a burden on his back<br />And nonetheless rides in a carriage,<br />He thereby encourages robbers to draw near.<br />Perseverance leads to humiliation.</p>",
+      "<p>Deliver yourself from your great toe.<br />Then the companion comes,<br />And him you can trust.</p>",
+      "<p>If only the superior man can deliver himself,<br />It brings good fortune.<br />Thus he proves to inferior men that he is in earnest.</p>",
+      "<p>The prince shoots at a hawk on a high wall.<br />He kills it. Everything serves to further.</p>"
+    ]
+  },
+  {
+    "number" : 41,
+    "pattern" : 778887,
+    "symbol" : "䷨",
+    "name" : {
+      "zh" : "解",
+      "en" : "Decrease"
+    },
+    "judgment" : "<p>Decrease combined with sincerity<br />Brings about supreme good fortune<br />Without blame.<br />One may be persevering in this.<br />It furthers one to undertake something.<br />How is this to be carried out?<br />One may use two small bowls for the sacrifice.</p>",
+    "image" : "<p>At the foot of the mountain, the lake:<br />The image of Decrease.<br />Thus the superior man controls his anger<br />And restrains his instincts.</p>",
+    "transforming_lines" : [
+      "<p>Going quickly when one's tasks are finished<br />Is without blame.<br />But one must reflect on how much one may decrease others.</p>",
+      "<p>Perseverance furthers.<br />To undertake something brings misfortune.<br />Without decreasing oneself,<br />One is able to bring increase to others.</p>",
+      "<p>When three people journey together,<br />Their number decreases by one.<br />When one man journeys alone,<br />He finds a companion.</p>",
+      "<p>If a man decreases his faults,<br />It makes the other hasten to come and rejoice.<br />No blame.</p>",
+      "<p>Someone does indeed increase him.<br />Ten pairs of tortoises cannot oppose it.<br />Supreme good fortune.</p>",
+      "<p>If one is increased without depriving others,<br />There is no blame.<br />Perseverance brings good fortune.<br />It furthers one to undertake something.<br />One obtains servants<br />But no longer has a separate home.</p>"
+    ]
+  },
+  {
+    "number" : 42,
+    "pattern" : 788877,
+    "symbol" : "䷩",
+    "name" : {
+      "zh" : "益",
+      "en" : "Increase"
+    },
+    "judgment" : "<p>Increase. It furthers one<br />To undertake something.<br />It furthers one to cross the great water.</p>",
+    "image" : "<p>Wind and thunder: the image of Increase.<br />Thus the superior man:<br />If he sees good, he imitates it;<br />If he has faults, he rids himself of them.</p>",
+    "transforming_lines" : [
+      "<p>It furthers one to accomplish great deeds.<br />Supreme good fortune. No blame.</p>",
+      "<p>Someone does indeed increase him;<br />Ten pairs of tortoises cannot oppose it.<br />Constant perseverance brings good fortune.<br />The king presents him before God.<br />Good fortune.</p>",
+      "<p>One is enriched through unfortunate events.<br />No blame, if you are sincere<br />And walk in the middle,<br />And report with a seal to the prince.</p>",
+      "<p>If you walk in the middle<br />And report to the prince,<br />He will follow.<br />It furthers one to be used<br />In the removal of the capital.</p>",
+      "<p>If in truth you have a kind heart, ask not.<br />Supreme good fortune.<br />Truly, kindness will be recognized as your virtue.</p>",
+      "<p>He brings increase to no one.<br />Indeed, someone even strikes him.<br />He does not keep his heart constantly steady.<br />Misfortune.</p>"
+    ]
+  },
+  {
+    "number" : 43,
+    "pattern" : 777778,
+    "symbol" : "䷪",
+    "name" : {
+      "zh" : "夬",
+      "en" : "Break-through [Resoluteness]"
+    },
+    "judgment" : "<p>Break-through. One must resolutely make the matter known<br />At the court of the king.<br />It must be announced truthfully. Danger.<br />It is necessary to notify one's own city.<br />It does not further to resort to arms.<br />It furthers one to undertake something.</p>",
+    "image" : "<p>The lake has risen up to heaven:<br />The image of Break-through.<br />Thus the superior man<br />Dispenses riches downward<br />And refrains from resting on his virtue.</p>",
+    "transforming_lines" : [
+      "<p>Mighty in the forward-striding toes.<br />When one goes and is not equal to the task,<br />One makes a mistake.</p>",
+      "<p>A cry of alarm. Arms at evening and at night.<br />Fear nothing.</p>",
+      "<p>To be powerful in the cheekbones<br />Brings misfortune.<br />The superior man is firmly resolved.<br />He walks alone and is caught in the rain.<br />He is bespattered,<br />And people murmur against him.<br />No blame.</p>",
+      "<p>There is no skin on his thighs,<br />And walking comes hard.<br />If a man were to let himself be led like a sheep,<br />Remorse would disappear.<br />But if these words are heard<br />They will not be believed.</p>",
+      "<p>In dealing with weeds,<br />Firm resolution is necessary.<br />Walking in the middle<br />Remains free of blame.</p>",
+      "<p>No cry.<br />In the end misfortune comes.</p>"
+    ]
+  },
+  {
+    "number" : 44,
+    "pattern" : 877777,
+    "symbol" : "䷫",
+    "name" : {
+      "zh" : "姤",
+      "en" : "Coming to Meet"
+    },
+    "judgment" : "<p>Coming to Meet. The maiden is powerful.<br />One should not marry such a maiden.</p>",
+    "image" : "<p>Under heaven, wind:<br />The image of Coming to Meet.<br />Thus does the prince act when disseminating his commands<br />And proclaiming them to the four quarters of heaven.</p>",
+    "transforming_lines" : [
+      "<p>It must be checked with a brake of bronze.<br />Perseverance brings good fortune.<br />If one lets it take its course, one experiences misfortune.<br />Even a lean pig has it in him to rage around.</p>",
+      "<p>There is a fish in the tank. No blame.<br />Does not further guests.</p>",
+      "<p>There is no skin on his thighs,<br />And walking comes hard.<br />If one is mindful of the danger,<br />No great mistake is made.</p>",
+      "<p>No fish in the tank.<br />This leads to misfortune.</p>",
+      "<p>A melon covered with willow leaves.<br />Hidden lines.<br />Then it drops down to one from heaven.</p>",
+      "<p>He comes to meet with his horns.<br />Humiliation. No blame.</p>"
+    ]
+  },
+  {
+    "number" : 45,
+    "pattern" : 888778,
+    "symbol" : "䷬",
+    "name" : {
+      "zh" : "萃",
+      "en" : "Gathering Together [Massing]"
+    },
+    "judgment" : "<p>Gathering Together. Success.<br />The king approaches his temple.<br />It furthers one to see the great<br />This brings success. Perseverance furthers.<br />To bring great offerings creates good fortune.<br />It furthers one to undertake something.</p>",
+    "image" : "<p>Over the earth, the lake:<br />The image of Gathering Together.<br />Thus the superior man renews his weapons<br />In order to meet the unforseen.</p>",
+    "transforming_lines" : [
+      "<p>If you are sincere, but not to the end,<br />There will sometimes be confusion, sometimes gathering together.<br />If you call out,<br />Then after one grasp of the hand you can laugh again.<br />Regret not. Going is without blame.</p>",
+      "<p>Letting oneself be drawn<br />Brings good fortune and remains blameless.<br />If one is sincere,<br />It furthers one to bring even a small offering.<br /></p>",
+      "<p>Gathering together amid sighs.Nothing that would further.<br />Going is without blame.<br />Slight humiliation.</p>",
+      "<p>Great good fortune. No blame.</p>",
+      "<p>If in gathering together one has position,<br />This brings no blame.<br />If there are some who are not yet sincerely in the work,<br />Sublime and enduring perseverance is needed.<br />Then remorse disappears.</p>",
+      "<p>Lamenting and sighing, floods of tears.<br />No blame.</p>"
+    ]
+  },
+  {
+    "number" : 46,
+    "pattern" : 877888,
+    "symbol" : "䷭",
+    "name" : {
+      "zh" : "升",
+      "en" : "Pushing Upward"
+    },
+    "judgment" : "<p>Pushing Upward has supreme success.<br />One must see the great man.<br />Fear not.<br />Departure toward the south<br />Brings good fortune.</p>",
+    "image" : "<p>Within the earth, wood grows:<br />The image of Pushing Upward.<br />Thus the superior man of devoted character<br />Heaps up small things<br />In order to achieve something high and great.</p>",
+    "transforming_lines" : [
+      "<p>Pushing upward that meets with confidence<br />Brings great good fortune.</p>",
+      "<p>If one is sincere,<br />It furthers one to bring even a small offering.<br />No blame.</p>",
+      "<p>One pushes upward into an empty city.</p>",
+      "<p>The king offers him Mount Ch'i.<br />Good fortune. No blame.</p>",
+      "<p>Perseverance brings good fortune.<br />One pushes upward by steps.</p>",
+      "<p>Pushing upward in darkness.<br />It furthers one<br />To be unremittingly persevering.</p>"
+    ]
+  },
+  {
+    "number" : 47,
+    "pattern" : 878778,
+    "symbol" : "䷮",
+    "name" : {
+      "zh" : "困",
+      "en" : "Oppression [Exhaustion]"
+    },
+    "judgment" : "<p>Oppression. Success. Perseverance.<br />The great man brings about good fortune.<br />No blame.<br />When one has something to say,<br />It is not believed.</p>",
+    "image" : "<p>There is no water in the lake:<br />The image of Exhaustion.<br />Thus the superior man stakes his life<br />On following his will.</p>",
+    "transforming_lines" : [
+      "<p>One sits oppressed under a bare tree<br />And strays into a gloomy valley.<br />For three years one sees nothing.</p>",
+      "<p>One is oppressed while at meat and drink.<br />The man with the scarlet knee bands is just coming.<br />It furthers one to offer sacrifice.<br />To set forth brings misfortune.<br />No blame.</p>",
+      "<p>A man permits himself to be oppressed by stone,<br />And leans on thorns and thistles.<br />He enters his house and does not see his wife.<br />Misfortune.</p>",
+      "<p>He comes very quietly, oppressed in a golden carriage.<br />Humiliation, but the end is reached.</p>",
+      "<p>His nose and feet are cut off.<br />Oppression at the hands of the man with the purple knee bands.<br />Joy comes softly.<br />It furthers one to make offerings and libations.</p>",
+      "<p>He is oppressed by creeping vines.<br />He moves uncertainly and says, \"Movement brings remorse.\"<br />If one feels remorse over this and makes a start,<br />Good fortune comes.</p>"
+    ]
+  },
+  {
+    "number" : 48,
+    "pattern" : 877878,
+    "symbol" : "䷯",
+    "name" : {
+      "zh" : "井",
+      "en" : "The Well"
+    },
+    "judgment" : "<p>The Well. The town may be changed,<br />But the well cannot be changed.<br />It neither decreases nor increases.<br />They come and go and draw from the well.<br />If one gets down almost to the water<br />And the rope does not go all the way,<br />Or the jug breaks, it brings misfortune.</p>",
+    "image" : "<p>Water over wood: the image of the Well.<br />Thus the superior man encourages the people at their work,<br />And exhorts them to help one another.</p>",
+    "transforming_lines" : [
+      "<p>One does not drink the mud of the well.<br />No animals come to an old well.</p>",
+      "<p>At the wellhole one shoots fishes.<br />The jug is broken and leaks.</p>",
+      "<p>The well is cleaned, but no one drinks from it.<br />This is my heart's sorrow,<br />For one might draw from it.<br />If the king were clear-minded,<br />Good fortune might be enjoyed in common.</p>",
+      "<p>The well is being lined. No blame.</p>",
+      "<p>In the well there is a clear, cold spring<br />From which one can drink.</p>",
+      "<p>One draws from the well<br />Without hindrance.<br />It is dependable.<br />Supreme good fortune.</p>"
+    ]
+  },
+  {
+    "number" : 787778,
+    "pattern" : 49,
+    "symbol" : "䷰",
+    "name" : {
+      "zh" : "革",
+      "en" : "Revolution [Molting]"
+    },
+    "judgment" : "<p>Revolution. On your own day<br />You are believed.<br />Supreme success,<br />Furthering through perseverance.<br />Remorse disappears.</p>",
+    "image" : "<p>Fire in the lake: the image of Revolution.<br />Thus the superior man<br />Sets the calendar in order<br />And makes the seasons clear.</p>",
+    "transforming_lines" : [
+      "<p>Wrapped in the hide of a yellow cow.</p>",
+      "<p>When one's own day comes, one may create revolution.<br />Starting brings good fortune. No blame.</p>",
+      "<p>Starting brings misfortune.<br />Perseverance brings danger.<br />When talk of revolution has gone the rounds three times,<br />One may commit himself,<br />And men will believe him.</p>",
+      "<p>Remorse disappears. Men believe him.<br />Changing the form of government brings good fortune.</p>",
+      "<p>The great man changes like a tiger.<br />Even before he questions the oracle<br />He is believed.</p>",
+      "<p>The superior man changes like a panther.<br />The inferior man molts in the face.<br />Starting brings misfortune.<br />To remain persevering brings good fortune.</p>"
+    ]
+  },
+   {
+    "number" : 50,
+    "pattern" : 877787,
+    "symbol" : "䷱",
+    "name" : {
+      "zh" : "鼎",
+      "en" : "The Cauldron"
+    },
+    "judgment" : "<p>The Cauldron. Supreme good fortune.<br />Success.</p>",
+    "image" : "<p>Fire over wood:<br />The image of the Cauldron.<br />Thus the superior man consolidates his fate<br />By making his position correct.</p>",
+    "transforming_lines" : [
+      "<p>A cauldron with legs upturned.<br />Furthers removal of stagnating stuff.<br />One takes a concubine for the sake of her son.<br />No blame.</p>",
+      "<p>There is food in the vessel.<br />My comrades are envious,.But they cannot harm me.<br />Good fortune.</p>",
+      "<p>The handle of the vessel is altered.<br />One is impeded in his way of life.<br />The fat of the pheasant is not eaten.<br />Once rain falls, remorse is spent.<br />Good fortune comes in the end.</p>",
+      "<p>The legs of the vessel are broken.<br />The prince's meal is spilled<br />And his person is soiled.<br />Misfortune.</p>",
+      "<p>The vessel has yellow handles, golden carrying rings.<br />Perseverance furthers.</p>",
+      "<p>The vessel has rings of jade.<br />Great good fortune.<br />Nothing that would not act to further.</p>"
+    ]
+  },
+   {
+    "number" : 51,
+    "pattern" : 788788,
+    "symbol" : "䷲",
+    "name" : {
+      "zh" : "震",
+      "en" : "The Arousing [Shock, Thunder]"
+    },
+    "judgment" : "<p>Shock brings success.<br />Shock comes - frightening, oh!<br />Laughing words - shrieking, ha!<br />The shock terrifies for a hundred miles,<br />And he does not let fall the sacrificial spoon and chalice.</p>",
+    "image" : "<p>Thunder repeated: the image of Shock.<br />Thus in fear and trembling<br />The superior man sets his life in order<br />And examines himself.</p>",
+    "transforming_lines" : [
+      "<p>Shock comes - frightening, oh!<br />Then follow laughing words - shrieking, ha!<br />Good fortune.</p>",
+      "<p>Shock comes bringing danger.<br />A hundred thousand times<br />You lose your treasures<br />And must climb the nine hills.<br />Do not go in pursuit of them.<br />After seven days you will get them back.</p>",
+      "<p>Shock comes and makes one distraught.<br />If shock spurs to action<br />One remains free of misfortune.</p>",
+      "<p>Shock is mired.</p>",
+      "<p>Shock goes hither and thither.<br />Danger.<br />However, nothing at all is lost.<br />Yet there are things to be done.</p>",
+      "<p>Shock brings ruin and terrified gazing around.<br />Going ahead brings misfortune.<br />If it has not yet touched one's own body<br />But has reached one's neighbor first,<br />There is no blame.<br />One's comrades have something to talk about.</p>"
+    ]
+  },
+  {
+    "number" : 52,
+    "pattern" : 887887,
+    "symbol" : "䷳",
+    "name" : {
+      "zh" : "艮",
+      "en" : " Keeping Still, Mountain"
+    },
+    "judgment" : "<p>Keeping Still. Keeping his back still<br />So that he no longer feels his body.<br />He goes into his courtyard<br />And does not see his people.<br />No blame.</p>",
+    "image" : "<p>Mountains standing close together:<br />The image of Keeping Still.<br />Thus the superior man<br />Does not permit his thoughts<br />To go beyond his situation.</p>",
+    "transforming_lines" : [
+      "<p>Keeping his toes still.<br />No blame.<br />Continued perseverance furthers.</p>",
+      "<p>Keeping his calves still.<br />He cannot rescue him whom he follows.<br />His heart is not glad.</p>",
+      "<p>Keeping his hips still.<br />Making his sacrum stiff.<br />Dangerous. The heart suffocates.</p>",
+      "<p>Keeping his trunk still.<br />No blame.</p>",
+      "<p>Keeping his jaws still.<br />The words have order.<br />Remorse disappears.</p>",
+      "<p>Noblehearted keeping still.<br />Good fortune.</p>"
+    ]
+  },
+  {
+    "number" : 53,
+    "pattern" : 887877,
+    "symbol" : "䷴",
+    "name" : {
+      "zh" : "漸",
+      "en" : "Development [Gradual Progress]"
+    },
+    "judgment" : "<p>Development. The maiden<br />Is given in marriage.<br />Good fortune.<br />Perseverance furthers.</p>",
+    "image" : "<p>On the mountain, a tree:<br />The image of Development.<br />Thus the superior man abides in dignity and virtue,<br />In order to improve the mores.</p>",
+    "transforming_lines" : [
+      "<p>The wild goose gradually draws near the shore.<br />The young son is in danger.<br />There is talk. No blame.</p>",
+      "<p>The wild goose gradually draws near the cliff.<br />Eating and drinking in peace and concord.<br />Good fortune.</p>",
+      "<p>The wild goose gradually draws near the plateau.<br />The man goes forth and does not return.<br />The woman carries a child but does not bring it forth.<br />Misfortune.<br />It furthers one to fight off robbers.</p>",
+      "<p>The wild goose gradually draws near the tree.<br />Perhaps it will find a flat branch. No blame.</p>",
+      "<p>The wild goose gradually draws near the summit.<br />For three years the woman has no child.<br />In the end nothing can hinder her.<br />Good fortune.</p>",
+      "<p>The wild goose gradually draws near the cloud heights.<br />Its feathers can be used for the sacred dance.<br />Good fortune.</p>"
+    ]
+  },
+  {
+    "number" : 54,
+    "pattern" : 778788,
+    "symbol" : "䷵",
+    "name" : {
+      "zh" : "歸妹",
+      "en" : "The Marrying Maiden"
+    },
+    "judgment" : "<p>The Marrying Maiden.<br />Undertakings bring misfortune.<br />Nothing that would further.</p>",
+    "image" : "<p>Thunder over the lake:<br />The image of the Marrying Maiden.<br />Thus the superior man<br />Understands the transitory<br />In the light of the eternity of the end.</p>",
+    "transforming_lines" : [
+      "<p>The marrying maiden as a concubine.<br />A lame man who is able to tread.<br />Undertakings bring good fortune.</p>",
+      "<p>A one-eyed man who is able to see.<br />The perseverance of a solitary man furthers.</p>",
+      "<p>The marrying maiden as a slave.<br />She marries as a concubine.</p>",
+      "<p>The marrying maiden draws out the allotted time.<br />A late marriage comes in due course.</p>",
+      "<p>The sovereign I gave his daughter in marriage.<br />The embroidered garments of the princess<br />Were not as gorgeous<br />As those of the servingmaid.<br />The moon that is nearly full<br />Brings good fortune.</p>",
+      "<p>The woman holds the basket, but there are no fruits in it.<br />The man stabs the sheep, but no blood flows.<br />Nothing that acts to further.</p>"
+    ]
+  },
+  {
+    "number" : 55,
+    "pattern" : 787788,
+    "symbol" : "䷶",
+    "name" : {
+      "zh" : "豐",
+      "en" : "Abundance [Fullness]"
+    },
+    "judgment" : "<p>Abundance has success.<br />The king attains abundance.<br />Be not sad.<br />Be like the sun at midday.</p>",
+    "image" : "<p>Both thunder and lightning come:<br />The image of Abundance.<br />Thus the superior man decides lawsuits<br />And carries out punishments.</p>",
+    "transforming_lines" : [
+      "<p>When a man meets his destined ruler,<br />They can be together ten days,<br />And it is not a mistake.<br />Going meets with recognition.</p>",
+      "<p>The curtain is of such fullness<br />That the polestars can be seen at noon.<br />Through going one meets with mistrust and hate.<br />If one rouses him through truth,<br />Good fortune comes.</p>",
+      "<p>The underbrush is of such abundance<br />That the small stars can be seen at noon.<br />He breaks his right arm. No blame.</p>",
+      "<p>The curtain is of such fullness<br />That the polestars can be seen at noon.<br />He meets his ruler, who is of like kind.<br />Good fortune.</p>",
+      "<p>Lines are coming,<br />Blessing and fame draw near.<br />Good fortune.</p>",
+      "<p>His house is in a state of abundance.<br />He screens off his family.<br />He peers through the gate<br />And no longer perceives anyone.<br />For three years he sees nothing.<br />Misfortune.</p>"
+    ]
+  },
+  {
+    "number" : 56,
+    "pattern" : 887787,
+    "symbol" : "䷷",
+    "name" : {
+      "zh" : "旅",
+      "en" : "The Wanderer"
+    },
+    "judgment" : "<p>The Wanderer. Success through smallness.<br />Perseverance brings good fortune<br />To the wanderer.</p>",
+    "image" : "<p>Fire on the mountain:<br />The image of the Wanderer.<br />Thus the superior man<br />Is clear-minded and cautious<br />In imposing penalties,<br />And protracts no lawsuits.</p>",
+    "transforming_lines" : [
+      "<p>If the wanderer busies himself with trivial things,<br />He draws down misfortune upon himself.</p>",
+      "<p>The wanderer comes to an inn.<br />He has his property with him.<br />He wins the steadfastness of a young servant.</p>",
+      "<p>The wanderer's inn burns down.<br />He loses the steadfastness of his young servant.<br />Danger.</p>",
+      "<p>The wanderer rests in a shelter.<br />He obtains his property and an ax.<br />My heart is not glad.</p>",
+      "<p>He shoots a pheasant.<br />It drops with the first arrow.<br />In the end this brings both praise and office.</p>",
+      "<p>The bird's nest burns up.<br />The wanderer laughs at first,<br />Then must needs lament and weep.<br />Through carelessness he loses his cow.<br />Misfortune.</p>"
+    ]
+  },
+  {
+    "number" : 57,
+    "pattern" : 877877,
+    "symbol" : "䷸",
+    "name" : {
+      "zh" : "巽",
+      "en" : "The Gentle [The Penetrating, Wind]"
+    },
+    "judgment" : "<p>The Gentle. Success through what is small.<br />It furthers one to have somewhere to go.<br />It furthers one to see the great man.</p>",
+    "image" : "<p>Winds following one upon the other:<br />The image of the Gently Penetrating.<br />Thus the superior man<br />Spreads his commands abroad<br />And carries out his undertakings.</p>",
+    "transforming_lines" : [
+      "<p>In advancing and in retreating,<br />The perseverance of a warrior furthers.</p>",
+      "<p>Penetration under the bed.<br />Priests and magicians are used in great number.<br />Good fortune. No blame.</p>",
+      "<p>Repeated penetration. Humiliation.</p>",
+      "<p>Remorse vanishes.<br />During the hunt<br />Three kinds of game are caught.</p>",
+      "<p>Perseverance brings good fortune.<br />Remorse vanishes.<br />Nothing that does not further.<br />No beginning, but an end.<br />Before the change, three days.<br />After the change, three days.<br />Good fortune.</p>",
+      "<p>Penetration under the bed.<br />He loses his property and his ax.<br />Perseverance brings misfortune.</p>"
+    ]
+  },
+  {
+    "number" : 58,
+    "pattern" : 778778,
+    "symbol" : "䷹",
+    "name" : {
+      "zh" : "兌",
+      "en" : "The Joyous, Lake"
+    },
+    "judgment" : "<p>The Joyous. Success.<br />Perseverance is favorable.</p>",
+    "image" : "<p>Lakes resting one on the other:<br />The image of the Joyous.<br />Thus the superior man joins with his friends<br />For discussion and practice.</p>",
+    "transforming_lines" : [
+      "<p>Contented joyousness. Good fortune.</p>",
+      "<p>Sincere joyousness. Good fortune.<br />Remorse disappears.</p>",
+      "<p>Coming joyousness. Misfortune.</p>",
+      "<p>Joyousness that is weighed is not at peace.<br />After ridding himself of mistakes a man has joy.</p>",
+      "<p>Sincerity toward disintegrating influences is dangerous.</p>",
+      "<p>Seductive joyousness.</p>"
+    ]
+  },
+  {
+    "number" : 59,
+    "pattern" : 878877,
+    "symbol" : "䷺",
+    "name" : {
+      "zh" : "渙",
+      "en" : "Dispersion [Dissolution]"
+    },
+    "judgment" : "<p>Dispersion. Success.<br />The king approaches his temple.<br />It furthers one to cross the great water.<br />Perseverance furthers.</p>",
+    "image" : "<p>The wind drives over the water:<br />The image of Dispersion.<br />Thus the kings of old sacrificed to the Lord<br />And built temples.</p>",
+    "transforming_lines" : [
+      "<p>He brings help with the strength of a horse.<br />Good fortune.</p>",
+      "<p>At the dissolution<br />He hurries to that which supports him.<br />Remorse disappears.</p>",
+      "<p>He dissolves his self. No remorse.</p>",
+      "<p>He dissolves his bond with his group.<br />Supreme good fortune.<br />Dispersion leads in turn to accumulation.<br />This is something that ordinary men do not think of.</p>",
+      "<p>His loud cries are as dissolving as sweat.<br />Dissolution. A king abides without blame.</p>",
+      "<p>He dissolves his blood.<br />Departing, keeping at a distance, going out,<br />Is without blame.</p>"
+    ]
+  },
+  {
+    "number" : 60,
+    "pattern" : 778878,
+    "symbol" : "䷻",
+    "name" : {
+      "zh" : "節",
+      "en" : "Limitation"
+    },
+    "judgment" : "<p>Limitation. Success.<br />Galling limitation must not be persevered in.</p>",
+    "image" : "<p>Water over lake: the image of Limitation.<br />Thus the superior man<br />Creates number and measure,<br />And examines the nature of virtue and correct conduct.</p>",
+    "transforming_lines" : [
+      "<p>Not going out of the door and the courtyard<br />Is without blame.</p>",
+      "<p>Not going out of the gate and the courtyard<br />Brings misfortune.</p>",
+      "<p>He who knows no limitation<br />Will have cause to lament.<br />No blame.</p>",
+      "<p>Contented limitation. Success.</p>",
+      "<p>Sweet limitation brings good fortune.<br />Going brings esteem.</p>",
+      "<p>Galling limitation.<br />Perseverance brings misfortune.<br />Remorse disappears.</p>"
+    ]
+  },
+  {
+    "number" : 61,
+    "pattern" : 778877,
+    "symbol" : "䷼",
+    "name" : {
+      "zh" : "中孚",
+      "en" : "Inner Truth"
+    },
+    "judgment" : "<p>Inner Truth. Pigs and fishes.<br />Good fortune.<br />It furthers one to cross the great water.<br />Perseverance furthers.</p>",
+    "image" : "<p>Wind over lake: the image of Inner Truth.<br />Thus the superior man discusses criminal cases<br />In order to delay executions.</p>",
+    "transforming_lines" : [
+      "<p>Being prepared brings good fortune.<br />If there are secret designs, it is disquieting.</p>",
+      "<p>A crane calling in the shade.<br />Its young answers it.<br />I have a good goblet.<br />I will share it with you.</p>",
+      "<p>He finds a comrade.<br />Now he beats the drum, now he stops.<br />Now he sobs, now he sings.</p>",
+      "<p>The moon nearly at the full.<br />The team horse goes astray.<br />No blame.</p>",
+      "<p>He possesses truth, which links together.<br />No blame.</p>",
+      "<p>Cockcrow penetrating to heaven.<br />Perseverance brings misfortune.</p>"
+    ]
+  },
+  {
+    "number" : 62,
+    "pattern" : 887788,
+    "symbol" : "䷽",
+    "name" : {
+      "zh" : "小過",
+      "en" : "Preponderance of the Small"
+    },
+    "judgment" : "<p>Preponderance of the Small. Success.<br />Perseverance furthers.<br />Small things may be done; great things should not be done.<br />The flying bird brings the message:<br />It is not well to strive upward,<br />It is well to remain below.<br />Great good fortune.</p>",
+    "image" : "<p>Thunder on the mountain:<br />The image of Preponderance of the Small.<br />Thus in his conduct the superior man gives preponderance to reverence.<br />In bereavement he gives preponderance to grief.<br />In his expenditures he gives preponderance to thrift.</p>",
+    "transforming_lines" : [
+      "<p>The bird meets with misfortune through flying.</p>",
+      "<p>She passes by her ancestor<br />And meets her ancestress.<br />He does not reach his prince<br />And meets the official.<br />No blame.</p>",
+      "<p>If one is not extremely careful,<br />Somebody may come up from behind and strike him.<br />Misfortune.</p>",
+      "<p>No blame. He meets him without passing by.<br />Going brings danger. One must be on guard.<br />Do not act. Be constantly persevering.</p>",
+      "<p>Dense clouds,<br />No rain from our western territory.<br />The prince shoots and hits him who is in the cave.</p>",
+      "<p>He passes him by, not meeting him.<br />The flying bird leaves him.<br />Misfortune.<br />This means bad luck and injury.</p>"
+    ]
+  },
+  {
+    "number" : 63,
+    "pattern" : 787878,
+    "symbol" : "䷾",
+    "name" : {
+      "zh" : "既濟",
+      "en" : "After Completion"
+    },
+    "judgment" : "<p>After Completion. Success in small matters.<br />Perseverance furthers.<br />At the beginning good fortune,<br />At the end disorder.</p>",
+    "image" : "<p>Water over fire: the image of the condition<br />In After Completion.<br />Thus the superior man<br />Takes thought of misfortune<br />And arms himself against it in advance.</p>",
+    "transforming_lines" : [
+      "<p>He brakes his wheels.<br />He gets his tail in the water.<br />No blame.</p>",
+      "<p>The woman loses the curtain of her carriage.<br />Do not run after it;<br />On the seventh day you will get it.</p>",
+      "<p>The Illustrious Ancestor<br />Disciplines the Devil's Country.<br />After three years he conquers it.<br />Inferior people must not be employed.</p>",
+      "<p>The finest clothes turn to rags.<br />Be careful all day long.</p>",
+      "<p>The neighbor in the east who slaughters an ox<br />Does not attain as much real happiness<br />As the neighbor in the west<br />With his small offering.</p>",
+      "<p>He gets his head in the water. Danger.</p>"
+    ]
+  },
+  {
+    "number" : 64,
+    "pattern" : 878787,
+    "symbol" : "䷿",
+    "name" : {
+      "zh" : "未濟",
+      "en" : "Before Completion"
+    },
+    "judgment" : "<p>Before Completion. Success.<br />But if the little fox, after nearly completing the crossing,<br />Gets his tail in the water,<br />There is nothing that would further.</p>",
+    "image" : "<p>Fire over water:<br />The image of the condition before transition.<br />Thus the superior man is careful<br />In the differentiation of things,<br />So that each finds its place.</p>",
+    "transforming_lines" : [
+      "<p>He gets his tail in the water.<br />Humiliating.</p>",
+      "<p>He brakes his wheels.<br />Perseverance brings good fortune.</p>",
+      "<p>Before completion, attack brings misfortune.<br />It furthers one to cross the great water.</p>",
+      "<p>Perseverance brings good fortune.<br />Remorse disappears.<br />Shock, thus to discipline the Devil's Country.<br />For three years, great realms are awarded.</p>",
+      "<p>Perseverance brings good fortune.<br />No remorse.<br />The light of the superior man is true.<br />Good fortune.</p>",
+      "<p>There is drinking of wine<br />In genuine confidence. No blame.<br />But if one wets his head,<br />He loses it, in truth.</p>"
+    ]
+  }
+];

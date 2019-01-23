@@ -12,7 +12,6 @@ var coin_flip = () => {
 }
 
 // HEXAGRAM IDENTIFICATION
-
 // identify_hexagram()
 // Takes a hexagram pattern and returns the hexagram from the BESTIARY
 // that matches that pattern as an object.
